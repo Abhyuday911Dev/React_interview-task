@@ -13,7 +13,7 @@ const Home = () => {
   //   setData(await data.json());
   // };
 
-  // using axios
+  // using axios 
   const getData = async () => {
     try {
       const { data } = await axios.get("https://picsum.photos/v2/list");
